@@ -68,7 +68,7 @@ Je cherche des opportunités dans le développement ou le soutien technique, id�
 - Travail d'équipe, mais chacun avait une page à faire et nous avons pas fait un jeu au complet
 - Voir le read me a l'intérieur du fichier pour plus de détails
 
-🔗 [Lien vers le dépôt](https://github.com/MyriamAssam/ProjetJob.git)
+🔗 [Lien vers le dépôt](https://github.com/MyriamAssam/JeuCombat.git)
 
 ---
 
