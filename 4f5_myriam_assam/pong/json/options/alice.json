@@ -1,0 +1,18 @@
+{
+  "_C": "OptionsImpl",
+  "errorDialog": true,
+  "isProd": false,
+  "coreOptions": {
+    "_C": "CoreOptionsImpl",
+    "sessionsPath": "${storagePath}/sessions",
+    "projectPath": "${userDir}",
+    "resourcesPath": "${projectPath}/src/main/resources",
+    "optionsPath": "${storagePath}/options",
+    "displayWarnings": true,
+    "storagePath": "${projectPath}/_storage",
+    "modelsPath": "${storagePath}/models",
+    "graphsPath": "${storagePath}/graphs",
+    "displayTasks": true,
+    "tmpPath": "${storagePath}/tmp"
+  }
+}

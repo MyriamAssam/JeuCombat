@@ -1,0 +1,43 @@
+# Java
+*.class
+
+# Python
+*.pyc
+
+# Java
+*.class
+
+# Gradle
+.gradle
+build
+!gradle-wrapper.jar
+
+# vim
+*.swp
+
+# emacs
+*~
+
+# Eclipse
+bin
+.settings
+.classpath
+.project
+.metadata
+
+# Idea
+.idea
+*.iml
+
+# MAC_OS
+.DS_Store
+
+# _storage
+_storage
+
+*.log
+
+# archives
+*.7z
+*.zip
+

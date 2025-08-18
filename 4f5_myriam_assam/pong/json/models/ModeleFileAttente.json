@@ -1,0 +1,32 @@
+{
+  "_C": "ModeleFileAttente",
+  "prochainIdRendezVous": 3,
+  "rendezVousDansOrdre": [
+    {
+      "_C": "RendezVous",
+      "idRendezVous": "1",
+      "premierJoueur": {
+        "_C": "Joueur",
+        "id": "ZQ6B",
+        "prenom": "Dominic",
+        "nom": "Lagrois"
+      }
+    },
+    {
+      "_C": "RendezVousComplet",
+      "idRendezVous": "2",
+      "premierJoueur": {
+        "_C": "Joueur",
+        "id": "UWmq",
+        "prenom": "Mehdi",
+        "nom": "Abdenouri"
+      },
+      "deuxiemeJoueur": {
+        "_C": "Joueur",
+        "id": "NrPs",
+        "prenom": "Chaaya",
+        "nom": "Gonzales"
+      }
+    }
+  ]
+}

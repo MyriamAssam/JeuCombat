@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.* ?>
+<?import javafx.scene.control.* ?>
+<?import javafx.scene.image.* ?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+    fx:controller="combat.frontal.vues.VueAcceuil" 
+    styleClass="conteneur"
+    id="vue-acceuil">
+    
+       
+    <Button
+  
+        text="%acheter"
+        styleClass="bouton-acheter"
+        id="boutonacheter"
+        fx:id = "boutonAcheter">
+    </Button>
+    
+	
+
+</VBox>
+
+

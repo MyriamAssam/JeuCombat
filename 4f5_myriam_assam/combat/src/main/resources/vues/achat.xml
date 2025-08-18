@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import combat.frontal.controles.CanvasAchat?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="combat.frontal.vues.VueAchat" styleClass="conteneur">
+    <HBox styleClass="header">
+        <Label fx:id="labelScore" styleClass="label-score" text="Score : " />
+    </HBox>
+    <HBox styleClass="footer">
+
+		<VBox styleClass="footer, petit-espace">
+			<Button fx:id="boutonCouleur" text="%Couleur" styleClass="bouton-couleur" id="bouton-couleur"></Button>
+		</VBox>
+		<Pane styleClass="petit-espace-horizontal" />
+		<Region HBox.hgrow="ALWAYS" />
+
+		<VBox styleClass="footer, petit-espace, footer-droit">
+			<Button fx:id="boutonQuitterAchat" text="%Quitter" styleClass="gros-bouton" id="bouton-quitter"></Button>
+		</VBox>
+        <VBox styleClass="footer, petit-espace, footer-droit">
+			<Button fx:id="boutonImage" text="I" styleClass="gros-bouton" id="bouton-image"></Button>
+		</VBox>
+		<VBox styleClass="footer, petit-espace, footer-droit">
+			<Button fx:id="boutonBalle" text="B" styleClass="gros-bouton" id="bouton-balle"></Button>
+		</VBox>
+ 
+
+        
+        <AnchorPane style="-fx-background-color: transparent;">
+    <ImageView fx:id="tankImageView" fitHeight="50" preserveRatio="true" AnchorPane.rightAnchor="100" AnchorPane.topAnchor="100">
+        <image>
+            <Image url="@/images/tankImage.jpg" />
+        </image>
+    </ImageView>
+</AnchorPane>
+         
+        <CanvasAchat fx:id="canvasAchat" maxWidth="200" HBox.hgrow="ALWAYS"/>
+      
+        <ScrollPane HBox.hgrow="ALWAYS" fitToWidth="true" styleClass="defilement">
+       
+        
+		<VBox styleClass="conteneur" fx:id="conteneurAchat" id="conteneur-achat"></VBox>
+ 
+	</ScrollPane>
+    
+    </HBox>
+    
+</VBox>
+

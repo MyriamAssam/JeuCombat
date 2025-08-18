@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="combat.frontal.fragments.FragmentCouleur"
+      styleClass="conteneur,vue-achat">
+    <HBox fx:id="conteneurPrincipal" styleClass="conteneur,achat" alignment="CENTER_LEFT">
+       <ImageView fx:id="imageCadenas" fitHeight="20" fitWidth="20">
+        <image>
+            <Image url="@/images/cadenas.jpg" />
+        </image>
+    </ImageView>
+        <Label fx:id="labelCouleur" styleClass="gros-texte" maxWidth="300"/> 
+        <Button fx:id="boutonRetirer" text="%Retirer" styleClass="gros-bouton,bouton-rouge" maxWidth="500"/> 
+        <Button fx:id="boutonSelection" text="%Selection" styleClass="gros-bouton,bouton-vert" maxWidth="500"/> 
+    </HBox>
+    <Pane styleClass="petit-espace-vertical" />
+</VBox>

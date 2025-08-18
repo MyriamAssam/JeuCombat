@@ -1,0 +1,255 @@
+.conteneur {
+    -fx-background-color: #c8c6d7;
+    -fx-alignment: center;
+}
+
+
+
+.tank-image-view {
+    -fx-alignment: center;
+}
+
+.header {
+  -fx-padding: 1em;
+  -fx-alignment: center;
+  -fx-background-color: #bfacc8;
+  -fx-text-fill: white;
+}
+.top-left {
+    -fx-alignment: top-left;
+    -fx-text-fill: white;
+}
+
+.top-right {
+    -fx-alignment: top-right;
+    -fx-text-fill: white;
+    -fx-padding: 0 40 0 0;
+}
+.petit-espace {
+  -fx-min-width: 1em;
+}
+.gros-bouton {
+    -fx-padding: 0.6em 1.15em 1.15em 1.15em;
+    -fx-background-insets: 0,0 0 0.4em 0, 0 0 0.45em 0, 0 0 0.5em 0;
+    -fx-background-radius: 0.6em;
+    -fx-background-color: 
+        linear-gradient(
+      from 0% 93% to 0% 100%,
+      #4f1271 0%,
+      #4a4063 100%
+    ),
+    #4f1271, #783f8e,
+    radial-gradient(center 50% 50%, radius 100%, #783f8e, #4f1271);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 0.4em,0,0, 0.1em);
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: white;
+    
+}
+.gros-bouton:pressed {
+    -fx-scale-x:0.9;
+    -fx-scale-y:0.9;
+    
+}
+
+.gros-bouton:hover {
+    -fx-cursor: hand;
+    
+}
+.bouton-couleur {
+    -fx-padding: 0.6em 1.15em 1.15em 1.15em;
+    -fx-background-insets: 0,0 0 0.4em 0, 0 0 0.45em 0, 0 0 0.5em 0;
+    -fx-background-radius: 0.6em;
+    -fx-background-color: 
+        linear-gradient(
+      from 0% 93% to 0% 100%,
+      #4f1271 0%,
+      #4a4063 100%
+    ),
+    #4f1271, #783f8e,
+    radial-gradient(center 50% 50%, radius 100%, #783f8e, #4f1271);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 0.4em,0,0, 0.1em);
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: white;
+   
+}
+.bouton-couleur:pressed {
+    -fx-scale-x:0.9;
+    -fx-scale-y:0.9;
+    
+}
+
+.bouton-couleur:hover {
+    -fx-cursor: hand;
+   
+}
+.bouton-acheterF {
+    -fx-padding: 0.6em 1.15em 1.15em 1.15em;
+    -fx-background-insets: 0,0 0 0.4em 0, 0 0 0.45em 0, 0 0 0.5em 0;
+    -fx-background-radius: 0.6em;
+    -fx-background-color: 
+        linear-gradient(
+      from 0% 93% to 0% 100%,
+      #4f1271 0%,
+      #4a4063 100%
+    ),
+    #4f1271, #783f8e,
+    radial-gradient(center 50% 50%, radius 100%, #783f8e, #4f1271);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 0.4em,0,0, 0.1em);
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: white;
+   
+}
+.bouton-acheterF:pressed {
+    -fx-scale-x:0.9;
+    -fx-scale-y:0.9;
+    
+}
+
+.bouton-acheterF:hover {
+    -fx-cursor: hand;
+   
+}
+
+#vue-partie {
+    -fx-border-color:darkgreen;
+}
+.bouton-rouge {
+    -fx-background-color: 
+        linear-gradient(from 90% 100% to 0% 100%, #b72353 0%, #9f2836 100%),
+        #a83145,
+        #ea5c63,
+        radial-gradient(center 50% 50%, radius 100%, #ea5c62, #d33a54);
+}
+.bouton-vert {
+ 
+       
+     -fx-background-color: 
+        linear-gradient(from 90% 100% to 0% 100%, #006400 0%, #006400 100%),
+        #00FF00,
+        #00FF00,
+        radial-gradient(center 50% 50%, radius 100%, #00FF00, #00FF00);
+}
+
+.achat {
+   -fx-padding: 8 20 20 20;
+   -fx-background-color: derive(black, 75%);
+   -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+   -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+   -fx-background-radius: 8;
+}
+
+.gros-texte{
+   -fx-text-fill: derive(black, 25%);
+   -fx-font-size:3em;
+}
+
+
+
+.bouton-acheter {
+  -fx-padding: 0.6em 1.15em 1.15em 1.15em;
+  -fx-background-insets: 0, 0 0 0.4em 0, 0 0 0.45em 0, 0 0 0.5em 0;
+  -fx-background-radius: 1.5em;
+  -fx-background-color: linear-gradient(
+      from 0% 93% to 0% 100%,
+      #4f1271 0%,
+      #4a4063 100%
+    ),
+    #4f1271, #783f8e,
+    radial-gradient(center 50% 50%, radius 100%, #783f8e, #4f1271);
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 0.6em, 0, 0, 0.1em);
+  -fx-font-weight: bold;
+  -fx-font-size: 1.4em;
+  -fx-text-fill: white;
+  -fx-alignment:center;
+}
+.bouton-acheter:pressed {
+  -fx-scale-x: 0.9;
+  -fx-scale-y: 0.9;
+  -fx-alignment:center;
+}
+
+.bouton-acheter:hover {
+  -fx-cursor: hand;
+  -fx-background-color: linear-gradient(
+      from 0% 93% to 0% 100%,
+      #4a4063 0%,
+      #4a4063 100%
+
+    ),
+    #4a4063, #bfacc8,
+    radial-gradient(center 50% 50%, radius 100%, #bfacc8, #4a4063);
+}
+
+
+.scroll-bar {
+   -fx-background-color: transparent;
+   -fx-border-color: transparent;
+}
+
+.scroll-bar .track {
+   -fx-background-color: derive(black, 75%);
+   -fx-border-color: transparent;
+   -fx-background-radius: 0.6em;
+}
+
+.scroll-bar .thumb {
+    -fx-padding: 0.6em 1.15em 1.15em 1.15em;
+    -fx-background-insets: 0,0 0 0.4em 0, 0 0 0.45em 0, 0 0 0.5em 0;
+    -fx-background-radius: 0.6em;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 0.3em,0,0, 0.08em);
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button,
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow {
+    -fx-shape : " ";    
+    -fx-visibility: hidden;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color:transparent;
+    -fx-background:transparent;
+}
+
+.scroll-pane {
+    -fx-background-color:transparent;
+    -fx-background:transparent;
+    -fx-hbar-policy:never;
+}
+.label-score {
+    -fx-text-fill: white;
+}
+
+.petit-espace-horizontal {
+    -fx-min-width:1em;
+    -fx-max-width:2em;
+}
+
+.grand-espace-horizontal {
+    -fx-min-width:2em;
+    -fx-max-width:10em;
+}
+
+.mini-espace-vertical {
+    -fx-min-height:1em;
+    -fx-max-height:2em;
+}
+
+.petit-espace-vertical {
+    -fx-min-height:3em;
+    -fx-max-height:10em;
+}
+
+.grand-espace-vertical {
+    -fx-min-height:3em;
+    -fx-max-height:20em;
+}

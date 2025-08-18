@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+
+<?import pong.frontal.controles.CanvasPartie?>
+
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+    fx:controller="pong.frontal.vues.VuePartie" 
+    styleClass="conteneur"
+    id="vue-partie"
+    fx:id = "conteneurVuePartie"
+    >
+    
+    <Pane styleClass="petit-espace-vertical"/>
+
+    <HBox VBox.vgrow="ALWAYS" styleClass="conteneur">
+
+        <Pane styleClass="petit-espace-horizontal"/>
+
+        
+        <CanvasPartie 
+            HBox.hgrow="ALWAYS" 
+            fx:id="canvasPartie" 
+            id="canvas-partie">
+        </CanvasPartie>
+
+        <Pane styleClass="petit-espace-horizontal"/>
+
+    </HBox>
+
+    <Pane styleClass="petit-espace-vertical"/>
+
+    <Button 
+        fx:id="boutonQuitterPartie" 
+        text="%quitterPartie"
+        styleClass="gros-bouton"
+        id="bouton-quitter-partie">
+    </Button>
+
+    <Pane styleClass="petit-espace-vertical"/>
+
+</VBox>
